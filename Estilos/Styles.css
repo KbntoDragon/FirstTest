@@ -1,4 +1,4 @@
-html, body{
+html, body {
     background-image: url(/Imagenes/Fondo.webp);
     background-size: cover;
     background-position: center;
@@ -6,6 +6,11 @@ html, body{
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar-brand img {
@@ -19,14 +24,15 @@ html, body{
     height: auto;
 }
 
+main{
+    flex: 1;
+}
+
 footer {
     background-color: #0f1923;
     text-align: center;
     height: 80px;
-    position: flex;
-    bottom: 0;
     width: 100%;
-
 }
 
 .footer-links ul {
