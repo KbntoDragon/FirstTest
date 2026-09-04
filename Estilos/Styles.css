@@ -49,3 +49,87 @@ footer {
     color: #c8aa6e;
     text-decoration: none;
 }
+.contenedor-perfil {
+display: flex;
+gap: 30px; 
+width: 90%; 
+max-width: 1400px; 
+height: 65vh; 
+margin: 40px auto;
+align-items: stretch;
+}
+
+.columna-izq {
+display: flex;
+flex-direction: column;
+gap: 20px; 
+width: 380px; 
+flex-shrink: 0;
+}
+.caja-foto-llena {
+border: 2px solid #b18f67;
+flex-grow: 1; 
+overflow: hidden;
+}
+
+.caja-foto-llena img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block; 
+}
+
+.caja-nombre {
+border: 2px solid #b18f67;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.columna-der {
+text-align: center;
+border: 2px solid #b18f67;
+flex-grow: 1;
+padding: 30px;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo-citas {
+color: #c8aa6e;
+margin-bottom: 25px;
+font-size: 1.4rem;
+letter-spacing: 1.5px;
+}
+
+
+.lista-fun-facts {
+list-style: none; 
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+.lista-fun-facts li {
+font-size: 1.1rem;
+line-height: 1.5;
+padding-left: 25px;
+position: relative;
+color: #e2e2e2; 
+}
+
+.lista-fun-facts li::before {
+content: "✦";
+color: #c8aa6e;
+position: absolute;
+left: 0;
+top: 0;
+font-size: 1.2rem;
+}
+
+
+.lista-fun-facts strong {
+color: #c8aa6e;
+font-weight: bold;
+}
+
+
