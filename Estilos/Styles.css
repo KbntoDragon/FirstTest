@@ -19,6 +19,34 @@ body {
     height: auto;
 }
 
+
+main {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.tarjeta-campeon {
+  display: inline-block;
+  width: 200px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.campeon {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tarjeta-campeon p {
+  color: white;
+  font-size: 13px;
+}
+
+.btn-conocer {
+  color: #c8aa6e;
+}
+
 .logo {
     max-width: 100%;
     height: auto;
