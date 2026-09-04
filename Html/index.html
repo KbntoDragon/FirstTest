@@ -8,67 +8,28 @@
     <link rel="Stylesheet" href="/Estilos/Styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-           <div class="navbar-brand">
-                <a class="navbar-item" href="#">
-                    <img src="/Imagenes/Logo.webp" class="logo">
-                </a>
-                <a class="navbar-burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-           </div>
-           <div class="navbar-menu" id="navbarPrincipal">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="#">
-                        Inicio
-                    </a>
-                    <a class="navbar-item" href="#">
-                        Campeones
-                    </a>
-                    <a class="navbar-item" href="#">
-                        Citas
-                    </a>
-                </div>
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="field">
-                            <div class="control">
-                                <input class="input" type="text" placeholder="Buscar...<3">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="navbar-item">
-                        <a class="button is-primary">
-                            Iniciar sesión
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <header id="header-placeholder"></header>
     <main>
-        <p>Aqui va el body por si acaso</p>
+        <h2>Campeones Disponibles</h2>
+        <div class="tarjeta-campeon">
+            <img src="../Imagenes/miss.webp" alt="Miss Fortune" class="campeon">
+            <p>Cazarrecompensas de Aguas Estancadas.</p>
+            <a href="MFprofile.html" class="btn-conocer">Conocer</a>
+        </div>
+
+        <div class="tarjeta-campeon">
+            <img src="../Imagenes/sett.webp" alt="Sett" class="campeon">
+            <p>Líder de los fosos de pelea en Jonia.</p>
+            <a href="SETTprofile.html" class="btn-conocer">Conocer</a>
+        </div>
+
+        <div class="tarjeta-campeon">
+            <img src="../Imagenes/rek.webp" alt="Rek'Sai" class="campeon">
+            <p>Depredadora feroz del Vacío.</p>
+            <a href="REKprofile.html" class="btn-conocer">Conocer</a>
+        </div>
     </main>
-    <footer id="footer">
-        <nav class="footer-links">
-            <ul>
-                <li><a href="Prensa.html">Prensa</a></li>
-                <li><a href="seguridad.html">Seguridad</a></li>
-                <li><a href="privacidad.html">Aviso de privacidad</a></li>
-                <li><a href="terminos.html">Términos de servicio</a></li>
-                <li><a href="asistencia.html">Asistencia al jugador</a></li>                
-                <li><a href="verificar.html">Verificar en línea</a></li>
-            </ul>
-        </nav>
-        <a href="#" class="btn-inicio">IR AL INICIO ▲</a>
-        <p class="footer-social">
-            <a href="https://discord.com" target="Dis">Discord</a> | 
-            <a href="https://twitch.tv" target="Tw">Twitch</a> | 
-            <a href="https://instagram.com" target="Ig">Instagram</a>
-        </p>
-    </footer>
+    <footer id="footer-placeholder"></footer>
 </body>
 </html>
+<script src="/Scripts/scripts.js"></script>
