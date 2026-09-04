@@ -31,7 +31,7 @@ const headerHTML = `<header>
                         </div>
                     </div>
                     <div class="navbar-item">
-                        <a class="button is-primary">
+                        <a class="button is-primary" href="login.html">
                             Iniciar sesión
                         </a>
                     </div>
@@ -76,3 +76,5 @@ function inicializarBurger() {
     });
   });
 }
+
+
