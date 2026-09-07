@@ -32,3 +32,22 @@ function inicializarBurger() {
     });
   });
 }
+
+function validarGmail(texto) {
+  const regex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+  return regex.test(texto);
+}
+
+console.log(validarGmail("usuario@gmail.com")); // true
+console.log(validarGmail("usuario@outlook.com")); // false
+
+document.getElementById('form-crear').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const correo = document.getElementById('correo').value;
+  const patronGmail = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+  if (patronGmail.test(correo)) {
+    window.location.href = 'index.html';
+  } else {
+    alert('Por favor, ingresa un correo electrónico válido de Gmail.');
+  }
+});
